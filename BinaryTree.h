@@ -21,3 +21,5 @@ public:
 
 	void postorderTreeWalk(TreeNode *node);
 }
+
+#endif
