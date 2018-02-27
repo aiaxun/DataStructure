@@ -20,6 +20,8 @@ public:
 	void preorderTreeWalk(TreeNode *node);
 
 	void postorderTreeWalk(TreeNode *node);
+
+	TreeNode *getRootNode();
 };
 
 #endif

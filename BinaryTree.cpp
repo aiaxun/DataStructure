@@ -55,3 +55,7 @@ void BinaryTree::postorderTreeWalk(TreeNode *node){
 	cout<<node->val<<" ";
 	postorderTreeWalk(node->left);
 }
+
+TreeNode* BinaryTree::getRootNode(){
+	return this->root;
+}
